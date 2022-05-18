@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anom Page</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .container {
+        max-width: 1400px;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      header,
+      footer {
+        width: 100%;
+        background-color: rgb(54, 147, 179);
+        color: #fff;
+        text-align: center;
+      }
+
+      header .container,
+      h2,
+      p {
+        padding: 10px 0;
+      }
+
+      main .container {
+        display: flex;
+      }
+
+      nav {
+        margin: 0 auto;
+        padding: 0 30px;
+        background-color: rgb(54, 147, 179);
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      li {
+        margin: 10px 0;
+        border-radius: 5px;
+        padding: 10px 0;
+      }
+
+      a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      article {
+        margin: auto 30px;
+        flex: 1;
+        padding-bottom: 20px;
+      }
+
+      img {
+        width: 150px;
+        border-radius: 10%;
+        border: 5px solid rgb(45, 45, 49);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container"><h1>Anom's Page</h1></div>
+    </header>
+    <main>
+      <div class="container">
+        <nav>
+          <ul>
+            <li>
+              <a
+                href="https://id.linkedin.com/in/arsenius-anom-permadi-77661749"
+                >My Linkedin</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/anompermadi">My Github</a>
+            </li>
+            <li>
+              <a href="https://instagram.com/bro.anom">My Instagram</a>
+            </li>
+          </ul>
+        </nav>
+
+        <article>
+          <h2>Dashboard</h2>
+          <p>This is me</p>
+          <img src="https://placekitten.com/300" alt="" />
+          <p>Hey I can sing for you</p>
+          <iframe
+            width="500"
+            height="280"
+            src="https://www.youtube.com/embed/a5JySIRcPFs"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </article>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&copy; 2022 by anompermadi.com</p>
+      </div>
+    </footer>
+  </body>
+</html>
