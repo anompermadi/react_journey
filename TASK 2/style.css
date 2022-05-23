@@ -75,7 +75,8 @@ a {
 }
 
 .left {
-  flex: 0 0 10em;
+  /* flex: 0 0 10em; */
+  flex-basis: 25%;
   background-color: #5f2b9b;
   margin-right: 0.25rem;
   padding: 1.1rem;
@@ -85,7 +86,7 @@ a {
 }
 
 .right {
-  flex-grow: 1;
+  flex-basis: 75%;
   background-color: #8b68a7;
   color: #ffffff;
   padding: 1rem;
